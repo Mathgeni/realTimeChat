@@ -18,7 +18,7 @@ def get_application() -> FastAPI:
     ]
 
     application = FastAPI(
-        title="Fresh Auto Checkout API microservice",
+        title="Real Time Chat",
         debug=app_settings.DEBUG,
         openapi_tags=openapi_tags,
         openapi_url="/real-time-chat/openapi.json",
