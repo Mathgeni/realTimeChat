@@ -1,0 +1,10 @@
+[tool.black]
+line-length = 79
+extend-exclude = '''
+(
+  ^/deploy/dev/data/*
+  | ^/deploy/prod/data/* 
+  | .*.pyc
+  | .__pycache__
+)
+'''
